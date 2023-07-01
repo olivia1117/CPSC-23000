@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/PurchasesWebApp20230701100307-cpsc23000-week8/providers/Microsoft.ServiceLinker/linkers/ConnectionStringsPurchasesWebAppContext_80DEB15AE1",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/purchaseswebappdbserver/databases/PurchasesWebApp_db-cpsc2300-week8",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:PurchasesWebAppContext"
+    }
+  }
+}
